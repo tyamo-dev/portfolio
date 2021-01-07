@@ -10,8 +10,9 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import { Component } from "vue-property-decorator";
 
-
+@Component
 export default class Menu extends Vue{
 	
 }
@@ -24,8 +25,11 @@ export default class Menu extends Vue{
 	margin-left: 150px;
 
 	.tabs {
+		padding: 1px;
 		height: 22px;
 		font-size: 19px;
+		font-weight: 600;
+		letter-spacing: 1px;
 		color: rgba(255, 255, 255, 0.3);
 		margin-bottom: 22px;
 	}
